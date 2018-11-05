@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		84E639BC1BE194200058894B /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 84E639BF1BE194210058894B /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				84E639C01BE255BC0058894B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0049A02B1E2881D100A0DFF8 /* MCAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0049A02A1E2881D100A0DFF8 /* MCAttributesViewController.m */; };
+		00858DF31D20BAAA00034250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858DF11D20B94300034250 /* UIKit.framework */; };
+		8417EA651BE1186300DD21F7 /* MCInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417EA641BE1186300DD21F7 /* MCInboxViewController.m */; };
+		8417EA6C1BE2709100DD21F7 /* MCReadmeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417EA6B1BE2709100DD21F7 /* MCReadmeViewController.m */; };
+		842ED5501BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 842ED54F1BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.m */; };
+		846FC0921BD5349E000D8062 /* MCTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FC0911BD5349E000D8062 /* MCTagsViewController.m */; };
+		849146041BDA4F300086C40D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849146031BDA4F300086C40D /* MapKit.framework */; };
+		849146061BDA57B10086C40D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849146051BDA57B10086C40D /* CoreLocation.framework */; };
+		84B068DE1BD1437F00FE115D /* MCSubscribeKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B068DD1BD1437F00FE115D /* MCSubscribeKeyViewController.m */; };
+		84D170011BD58F9100D563F7 /* MCTagTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D170001BD58F9100D563F7 /* MCTagTableCell.m */; };
+		84D170051BD6819900D563F7 /* MCTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D170041BD6819900D563F7 /* MCTag.m */; };
+		84D31EAA1BC6D1E400E31DAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D31EA91BC6D1E400E31DAE /* main.m */; };
+		84D31EAD1BC6D1E400E31DAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D31EAC1BC6D1E400E31DAE /* AppDelegate.m */; };
+		84D31EB31BC6D1E400E31DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D31EB11BC6D1E400E31DAE /* Main.storyboard */; };
+		84D31EB51BC6D1E400E31DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D31EB41BC6D1E400E31DAE /* Assets.xcassets */; };
+		84D31EB81BC6D1E400E31DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D31EB61BC6D1E400E31DAE /* LaunchScreen.storyboard */; };
+		9B44186C1D6C938F00696DFF /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9742011D5E484700344996 /* UserNotifications.framework */; };
+		9B6B25581D70CB1B00874782 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6B25571D70CB1B00874782 /* NotificationService.m */; };
+		9B6B255D1D70CB1B00874782 /* MarketingCloudServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B6B25541D70CB1B00874782 /* MarketingCloudServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BC7D9EC1FE2FC8800B5C044 /* MarketingCloudSDKConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BC7D9E91FE2FC8800B5C044 /* MarketingCloudSDKConfiguration.json */; };
+		9BC7D9ED1FE2FC8800B5C044 /* MarketingCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC7D9EA1FE2FC8800B5C044 /* MarketingCloudSDK.framework */; };
+		9BC7D9EE1FE2FC8800B5C044 /* MarketingCloudSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BC7D9EB1FE2FC8800B5C044 /* MarketingCloudSDK.bundle */; };
+		B5104FBF1C21EF11006D6884 /* MCOfficialDocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5104FBE1C21EF11006D6884 /* MCOfficialDocViewController.m */; };
+		B5C75EA11C7F68A1001A9D92 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5C75EA01C7F68A1001A9D92 /* LICENSE.txt */; };
+		B5C961C01CA4432400BE9F33 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C961BF1CA4432400BE9F33 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6B255A1D70CB1B00874782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D31E9D1BC6D1E400E31DAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6B25531D70CB1B00874782;
+			remoteInfo = MarketingCloudServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B6B255C1D70CB1B00874782 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B6B255D1D70CB1B00874782 /* MarketingCloudServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C6EC71E0AFE3600211059 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0049A0291E2881D100A0DFF8 /* MCAttributesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAttributesViewController.h; sourceTree = "<group>"; };
+		0049A02A1E2881D100A0DFF8 /* MCAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAttributesViewController.m; sourceTree = "<group>"; };
+		00858DF11D20B94300034250 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8417EA631BE1186300DD21F7 /* MCInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCInboxViewController.h; sourceTree = "<group>"; };
+		8417EA641BE1186300DD21F7 /* MCInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCInboxViewController.m; sourceTree = "<group>"; };
+		8417EA6A1BE2709100DD21F7 /* MCReadmeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCReadmeViewController.h; sourceTree = "<group>"; };
+		8417EA6B1BE2709100DD21F7 /* MCReadmeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCReadmeViewController.m; sourceTree = "<group>"; };
+		842ED54E1BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MarketingCloudSDK.h"; sourceTree = "<group>"; };
+		842ED54F1BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MarketingCloudSDK.m"; sourceTree = "<group>"; };
+		846FC0901BD5349E000D8062 /* MCTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTagsViewController.h; sourceTree = "<group>"; };
+		846FC0911BD5349E000D8062 /* MCTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTagsViewController.m; sourceTree = "<group>"; };
+		849146031BDA4F300086C40D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		849146051BDA57B10086C40D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84B068DC1BD1437F00FE115D /* MCSubscribeKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSubscribeKeyViewController.h; sourceTree = "<group>"; };
+		84B068DD1BD1437F00FE115D /* MCSubscribeKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSubscribeKeyViewController.m; sourceTree = "<group>"; };
+		84D16FFF1BD58F9100D563F7 /* MCTagTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTagTableCell.h; sourceTree = "<group>"; };
+		84D170001BD58F9100D563F7 /* MCTagTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTagTableCell.m; sourceTree = "<group>"; };
+		84D170031BD6819900D563F7 /* MCTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTag.h; sourceTree = "<group>"; };
+		84D170041BD6819900D563F7 /* MCTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTag.m; sourceTree = "<group>"; };
+		84D31EA51BC6D1E400E31DAE /* MarketingCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketingCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D31EA91BC6D1E400E31DAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D31EAB1BC6D1E400E31DAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D31EAC1BC6D1E400E31DAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D31EB21BC6D1E400E31DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D31EB41BC6D1E400E31DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D31EB71BC6D1E400E31DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D31EB91BC6D1E400E31DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D31EC21BC6D1E400E31DAE /* MarketingCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketingCloudTests.m; sourceTree = "<group>"; };
+		84D31EC41BC6D1E400E31DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D31ECD1BC6D1E400E31DAE /* MarketingCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketingCloudUITests.m; sourceTree = "<group>"; };
+		84D31ECF1BC6D1E400E31DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6B25541D70CB1B00874782 /* MarketingCloudServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarketingCloudServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6B25561D70CB1B00874782 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		9B6B25571D70CB1B00874782 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		9B6B25591D70CB1B00874782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6B25611D70CE1C00874782 /* MarketingCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarketingCloud.entitlements; sourceTree = "<group>"; };
+		9B6B25621D70CF0500874782 /* MarketingCloudServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarketingCloudServiceExtension.entitlements; sourceTree = "<group>"; };
+		9B9742011D5E484700344996 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9BC7D9E91FE2FC8800B5C044 /* MarketingCloudSDKConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarketingCloudSDKConfiguration.json; sourceTree = "<group>"; };
+		9BC7D9EA1FE2FC8800B5C044 /* MarketingCloudSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MarketingCloudSDK.framework; sourceTree = "<group>"; };
+		9BC7D9EB1FE2FC8800B5C044 /* MarketingCloudSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MarketingCloudSDK.bundle; sourceTree = "<group>"; };
+		B5104FBD1C21EF11006D6884 /* MCOfficialDocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOfficialDocViewController.h; sourceTree = "<group>"; };
+		B5104FBE1C21EF11006D6884 /* MCOfficialDocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCOfficialDocViewController.m; sourceTree = "<group>"; };
+		B5C75EA01C7F68A1001A9D92 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B5C75EA21C7F6E10001A9D92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5C961BF1CA4432400BE9F33 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D31EA21BC6D1E400E31DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC7D9ED1FE2FC8800B5C044 /* MarketingCloudSDK.framework in Frameworks */,
+				9B44186C1D6C938F00696DFF /* UserNotifications.framework in Frameworks */,
+				00858DF31D20BAAA00034250 /* UIKit.framework in Frameworks */,
+				B5C961C01CA4432400BE9F33 /* WebKit.framework in Frameworks */,
+				849146061BDA57B10086C40D /* CoreLocation.framework in Frameworks */,
+				849146041BDA4F300086C40D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6B25511D70CB1B00874782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0049A0281E2881A900A0DFF8 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				0049A0291E2881D100A0DFF8 /* MCAttributesViewController.h */,
+				0049A02A1E2881D100A0DFF8 /* MCAttributesViewController.m */,
+			);
+			name = Attributes;
+			sourceTree = "<group>";
+		};
+		8417EA621BE0FCDE00DD21F7 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				8417EA631BE1186300DD21F7 /* MCInboxViewController.h */,
+				8417EA641BE1186300DD21F7 /* MCInboxViewController.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		8417EA691BE26F2F00DD21F7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8417EA6A1BE2709100DD21F7 /* MCReadmeViewController.h */,
+				8417EA6B1BE2709100DD21F7 /* MCReadmeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		842ED54D1BD0392700CCDA0E /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				842ED54E1BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.h */,
+				842ED54F1BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.m */,
+			);
+			name = Addition;
+			sourceTree = "<group>";
+		};
+		8491460A1BDABFC30086C40D /* SubscribeKey */ = {
+			isa = PBXGroup;
+			children = (
+				84B068DC1BD1437F00FE115D /* MCSubscribeKeyViewController.h */,
+				84B068DD1BD1437F00FE115D /* MCSubscribeKeyViewController.m */,
+			);
+			name = SubscribeKey;
+			sourceTree = "<group>";
+		};
+		84B068DB1BD1435F00FE115D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0049A0281E2881A900A0DFF8 /* Attributes */,
+				B5104FBC1C21EED4006D6884 /* OfficialDocs */,
+				8417EA691BE26F2F00DD21F7 /* Home */,
+				8417EA621BE0FCDE00DD21F7 /* Inbox */,
+				8491460A1BDABFC30086C40D /* SubscribeKey */,
+				84D170061BD6896900D563F7 /* Tag */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84D170021BD6814200D563F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84D170031BD6819900D563F7 /* MCTag.h */,
+				84D170041BD6819900D563F7 /* MCTag.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84D170061BD6896900D563F7 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				84D16FFF1BD58F9100D563F7 /* MCTagTableCell.h */,
+				84D170001BD58F9100D563F7 /* MCTagTableCell.m */,
+				846FC0901BD5349E000D8062 /* MCTagsViewController.h */,
+				846FC0911BD5349E000D8062 /* MCTagsViewController.m */,
+			);
+			name = Tag;
+			sourceTree = "<group>";
+		};
+		84D31E9C1BC6D1E400E31DAE = {
+			isa = PBXGroup;
+			children = (
+				B5C75EA21C7F6E10001A9D92 /* README.md */,
+				B5C75EA01C7F68A1001A9D92 /* LICENSE.txt */,
+				84D31EA71BC6D1E400E31DAE /* MarketingCloud */,
+				84D31EC11BC6D1E400E31DAE /* MarketingCloudTests */,
+				84D31ECC1BC6D1E400E31DAE /* MarketingCloudUITests */,
+				9B6B25551D70CB1B00874782 /* MarketingCloudServiceExtension */,
+				84D31EA61BC6D1E400E31DAE /* Products */,
+				9D65C2ABA7375300FD677837 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84D31EA61BC6D1E400E31DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D31EA51BC6D1E400E31DAE /* MarketingCloud.app */,
+				9B6B25541D70CB1B00874782 /* MarketingCloudServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D31EA71BC6D1E400E31DAE /* MarketingCloud */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7D9EB1FE2FC8800B5C044 /* MarketingCloudSDK.bundle */,
+				9BC7D9EA1FE2FC8800B5C044 /* MarketingCloudSDK.framework */,
+				9BC7D9E91FE2FC8800B5C044 /* MarketingCloudSDKConfiguration.json */,
+				9B6B25611D70CE1C00874782 /* MarketingCloud.entitlements */,
+				84D170021BD6814200D563F7 /* Model */,
+				84B068DB1BD1435F00FE115D /* Views */,
+				842ED54D1BD0392700CCDA0E /* Addition */,
+				84D31EAB1BC6D1E400E31DAE /* AppDelegate.h */,
+				84D31EAC1BC6D1E400E31DAE /* AppDelegate.m */,
+				84D31EB11BC6D1E400E31DAE /* Main.storyboard */,
+				84D31EB41BC6D1E400E31DAE /* Assets.xcassets */,
+				84D31EB61BC6D1E400E31DAE /* LaunchScreen.storyboard */,
+				84D31EB91BC6D1E400E31DAE /* Info.plist */,
+				84D31EA81BC6D1E400E31DAE /* Supporting Files */,
+			);
+			path = MarketingCloud;
+			sourceTree = "<group>";
+		};
+		84D31EA81BC6D1E400E31DAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D31EA91BC6D1E400E31DAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D31EC11BC6D1E400E31DAE /* MarketingCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D31EC21BC6D1E400E31DAE /* MarketingCloudTests.m */,
+				84D31EC41BC6D1E400E31DAE /* Info.plist */,
+			);
+			path = MarketingCloudTests;
+			sourceTree = "<group>";
+		};
+		84D31ECC1BC6D1E400E31DAE /* MarketingCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D31ECD1BC6D1E400E31DAE /* MarketingCloudUITests.m */,
+				84D31ECF1BC6D1E400E31DAE /* Info.plist */,
+			);
+			path = MarketingCloudUITests;
+			sourceTree = "<group>";
+		};
+		9B6B25551D70CB1B00874782 /* MarketingCloudServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9B6B25621D70CF0500874782 /* MarketingCloudServiceExtension.entitlements */,
+				9B6B25561D70CB1B00874782 /* NotificationService.h */,
+				9B6B25571D70CB1B00874782 /* NotificationService.m */,
+				9B6B25591D70CB1B00874782 /* Info.plist */,
+			);
+			path = MarketingCloudServiceExtension;
+			sourceTree = "<group>";
+		};
+		9D65C2ABA7375300FD677837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9742011D5E484700344996 /* UserNotifications.framework */,
+				00858DF11D20B94300034250 /* UIKit.framework */,
+				B5C961BF1CA4432400BE9F33 /* WebKit.framework */,
+				849146051BDA57B10086C40D /* CoreLocation.framework */,
+				849146031BDA4F300086C40D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5104FBC1C21EED4006D6884 /* OfficialDocs */ = {
+			isa = PBXGroup;
+			children = (
+				B5104FBD1C21EF11006D6884 /* MCOfficialDocViewController.h */,
+				B5104FBE1C21EF11006D6884 /* MCOfficialDocViewController.m */,
+			);
+			name = OfficialDocs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D31EA41BC6D1E400E31DAE /* MarketingCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D31ED21BC6D1E400E31DAE /* Build configuration list for PBXNativeTarget "MarketingCloud" */;
+			buildPhases = (
+				84D31EA11BC6D1E400E31DAE /* Sources */,
+				84D31EA21BC6D1E400E31DAE /* Frameworks */,
+				84D31EA31BC6D1E400E31DAE /* Resources */,
+				9B6B255C1D70CB1B00874782 /* Embed App Extensions */,
+				9B6C6EC71E0AFE3600211059 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6B255B1D70CB1B00874782 /* PBXTargetDependency */,
+			);
+			name = MarketingCloud;
+			productName = MarketingCloud;
+			productReference = 84D31EA51BC6D1E400E31DAE /* MarketingCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6B25531D70CB1B00874782 /* MarketingCloudServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6B25601D70CB1B00874782 /* Build configuration list for PBXNativeTarget "MarketingCloudServiceExtension" */;
+			buildPhases = (
+				9B6B25501D70CB1B00874782 /* Sources */,
+				9B6B25511D70CB1B00874782 /* Frameworks */,
+				9B6B25521D70CB1B00874782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarketingCloudServiceExtension;
+			productName = MarketingCloudServiceExtension;
+			productReference = 9B6B25541D70CB1B00874782 /* MarketingCloudServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D31E9D1BC6D1E400E31DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Oktana;
+				TargetAttributes = {
+					84D31EA41BC6D1E400E31DAE = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2U7484B7BM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					84E639BC1BE194200058894B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9B6B25531D70CB1B00874782 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2U7484B7BM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84D31EA01BC6D1E400E31DAE /* Build configuration list for PBXProject "MarketingCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D31E9C1BC6D1E400E31DAE;
+			productRefGroup = 84D31EA61BC6D1E400E31DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D31EA41BC6D1E400E31DAE /* MarketingCloud */,
+				84E639BC1BE194200058894B /* Documentation */,
+				9B6B25531D70CB1B00874782 /* MarketingCloudServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D31EA31BC6D1E400E31DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C75EA11C7F68A1001A9D92 /* LICENSE.txt in Resources */,
+				9BC7D9EC1FE2FC8800B5C044 /* MarketingCloudSDKConfiguration.json in Resources */,
+				84D31EB81BC6D1E400E31DAE /* LaunchScreen.storyboard in Resources */,
+				84D31EB51BC6D1E400E31DAE /* Assets.xcassets in Resources */,
+				84D31EB31BC6D1E400E31DAE /* Main.storyboard in Resources */,
+				9BC7D9EE1FE2FC8800B5C044 /* MarketingCloudSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6B25521D70CB1B00874782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84E639C01BE255BC0058894B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Salesforce\";\ncompanyID=\"com.salesforce\";\ncompanyURL=\"http://salesforce.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D31EA11BC6D1E400E31DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B068DE1BD1437F00FE115D /* MCSubscribeKeyViewController.m in Sources */,
+				846FC0921BD5349E000D8062 /* MCTagsViewController.m in Sources */,
+				84D31EAD1BC6D1E400E31DAE /* AppDelegate.m in Sources */,
+				84D31EAA1BC6D1E400E31DAE /* main.m in Sources */,
+				8417EA651BE1186300DD21F7 /* MCInboxViewController.m in Sources */,
+				84D170011BD58F9100D563F7 /* MCTagTableCell.m in Sources */,
+				8417EA6C1BE2709100DD21F7 /* MCReadmeViewController.m in Sources */,
+				B5104FBF1C21EF11006D6884 /* MCOfficialDocViewController.m in Sources */,
+				0049A02B1E2881D100A0DFF8 /* MCAttributesViewController.m in Sources */,
+				842ED5501BD0393B00CCDA0E /* AppDelegate+MarketingCloudSDK.m in Sources */,
+				84D170051BD6819900D563F7 /* MCTag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6B25501D70CB1B00874782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6B25581D70CB1B00874782 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6B255B1D70CB1B00874782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6B25531D70CB1B00874782 /* MarketingCloudServiceExtension */;
+			targetProxy = 9B6B255A1D70CB1B00874782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D31EB11BC6D1E400E31DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D31EB21BC6D1E400E31DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D31EB61BC6D1E400E31DAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D31EB71BC6D1E400E31DAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D31ED01BC6D1E400E31DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D31ED11BC6D1E400E31DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D31ED31BC6D1E400E31DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = MarketingCloud/MarketingCloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U7484B7BM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarketingCloud",
+				);
+				INFOPLIST_FILE = MarketingCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarketingCloud",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SMC.crm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		84D31ED41BC6D1E400E31DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = MarketingCloud/MarketingCloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U7484B7BM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarketingCloud",
+				);
+				INFOPLIST_FILE = MarketingCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarketingCloud",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SMC.crm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		84E639BD1BE194210058894B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E639BE1BE194210058894B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B6B255E1D70CB1B00874782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = MarketingCloudServiceExtension/MarketingCloudServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2U7484B7BM;
+				INFOPLIST_FILE = MarketingCloudServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SMC.crm.v6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B6B255F1D70CB1B00874782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = MarketingCloudServiceExtension/MarketingCloudServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2U7484B7BM;
+				INFOPLIST_FILE = MarketingCloudServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SMC.crm.v6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D31EA01BC6D1E400E31DAE /* Build configuration list for PBXProject "MarketingCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D31ED01BC6D1E400E31DAE /* Debug */,
+				84D31ED11BC6D1E400E31DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D31ED21BC6D1E400E31DAE /* Build configuration list for PBXNativeTarget "MarketingCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D31ED31BC6D1E400E31DAE /* Debug */,
+				84D31ED41BC6D1E400E31DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E639BF1BE194210058894B /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E639BD1BE194210058894B /* Debug */,
+				84E639BE1BE194210058894B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6B25601D70CB1B00874782 /* Build configuration list for PBXNativeTarget "MarketingCloudServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6B255E1D70CB1B00874782 /* Debug */,
+				9B6B255F1D70CB1B00874782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D31E9D1BC6D1E400E31DAE /* Project object */;
+}

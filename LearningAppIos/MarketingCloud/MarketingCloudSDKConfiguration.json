@@ -1,0 +1,22 @@
+ [{
+  "name": "production",
+  "appid": "917effea-9b5b-406b-a54d-6be606d212be",
+  "accesstoken": "xz3g43wtf3am4pn8s3bac6hm",
+  "marketing_cloud_server_url": "https://consumer.exacttargetapis.com/",
+  "mid": "100003676",
+  "etanalytics": true,
+  "pianalytics": true,
+  "location": true,
+  "inbox": true
+  },
+  {
+  "name": "debug",
+  "appid": "917effea-9b5b-406b-a54d-6be606d212be",
+  "accesstoken": "xz3g43wtf3am4pn8s3bac6hm",
+  "marketing_cloud_server_url": "https://consumer.exacttargetapis.com/",
+  "mid": "100003676",
+  "etanalytics": true,
+  "pianalytics": true,
+  "location": true,
+  "inbox": true
+  }]
